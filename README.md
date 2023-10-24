@@ -2,8 +2,8 @@
 
 ### [Project Page](https://composable-models.github.io/llm_debate/) | [Paper](https://arxiv.org/abs/2305.14325)
 
-[Vighnesh Subramaniam](https://scholar.google.com/citations?user=Or3MAdgAAAAJ&hl=en)
-[Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab/)
+[Vighnesh Subramaniam](https://scholar.google.com/citations?user=Or3MAdgAAAAJ&hl=en),
+[Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab/),
 [Shuang Li](https://people.csail.mit.edu/lishuang/)
 
 This is the implementation of our paper "DebateGPT: Fine-tuning Large Language Models with Multi-agent Debate Supervision". We will be updating this page with more tasks soon.
@@ -43,6 +43,7 @@ To generate answers for arithmetic, cd into the `arithmetic` directory and open 
 	`python gen_math.py`
 
 **Grade School Math**
+
 First, cd into the `gsm`` directory and download the GSM dataset [here](https://github.com/openai/grade-school-math)
 
 To generate answers for the Grade School Math problems, open `gen_gsm.py` and set your OpenAI key and fine-tuned model name. Then run
@@ -54,6 +55,7 @@ To evaluate the generated results of the Grade School Math problems:
 The scripts can optionally take a `--save_name` flag giving a path indicating where the desired results are.
 
 **MMLU**
+
 First, cd into the `mmlu` directory and download the MMLU dataset [here](https://github.com/hendrycks/test)
 
 To generate answers for MMLU, open `gen_mmlu.py` and set your OpenAI key and fine-tuned model name. Then run
@@ -65,6 +67,7 @@ To evaluate the generated results:
 The scripts can optionally take a `--save_name` flag giving a path indicating where the desired results are.
 
 **ARC**
+
 First, cd into the `arc` directory and download the ARC dataset [here](https://allenai.org/data/arc)
 
 To generate answers for ARC, open `gen_arc.py` and set your OpenAI key and fine-tuned model name. Then run
@@ -76,6 +79,7 @@ To evaluate the generated results:
 The scripts can optionally take a `--save_name` flag giving a path indicating where the desired results are.
 
 **Winogrande**
+
 First, cd into the `winogrande` directory and download the Winogrande dataset [here](https://winogrande.allenai.org/)
 
 To generate answers for Winogrande, open `gen_winogrande.py` and set your OpenAI key and fine-tuned model name. Then run
