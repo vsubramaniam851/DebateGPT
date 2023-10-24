@@ -1,0 +1,6 @@
+alpaca-eval
+datasets
+huggingface-hub
+numpy
+openai
+pandas
